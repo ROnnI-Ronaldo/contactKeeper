@@ -25,6 +25,9 @@ const AuthState = props => {
   const [state, dispatch] = useReducer(authReducer, initialState);
 
   //Load User
+  const loadUser = async () => {
+    const res = await axios.get("/api/user");
+  };
 
   //Register User
   const register = async formData => {
