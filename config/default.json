@@ -1,0 +1,4 @@
+{
+    "databaseURI": "mongodb+srv://ROnnI123:ROnnI123@contactkeeper-ww0mf.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret" : "secret" 
+}
